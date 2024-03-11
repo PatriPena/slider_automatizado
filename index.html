@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="desayuno, postres, brunch, macarons, tarta, pastel">
+  <link rel="icon" href="logo.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="stylesheet" href="./public/css/style.css">
+  <title>Cafetería Susuyuno </title>
+</head>
+
+<body>
+
+<!--menu desplegable -->
+<section class="top-banner">
+  <div class="top-banner-overlay">
+    <h4>Susuyunos</h4>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</section> 
+<nav class="top-nav">
+  <div class="menu-wrapper">
+    <ul class="menu">
+      <li>
+        <a href="">Inicio</a>
+      </li>
+      <li>
+        <a href="">Nuestros postres</a>
+        <ul class="sub-menu">
+          <li>
+            <a href="">— nuestra idea</a>
+          </li>
+          <li>
+            <a href="">— nosotros</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="">Proyectos</a>
+      </li>
+      <li>
+        <a href="">Nuestros clientes</a>
+      </li>
+      <li>
+        <a href="">Contáctanos</a>
+      </li>
+    </ul>
+    <button class="menu-close" type="button" aria-label="close menu">✕</button>
+  </div>
+  <div class="fixed-menu">
+    <img src="logo.png" alt="">
+    <button class="menu-toggle" type="button" aria-label="toggle menu">☰</button>
+    <ul class="socials">
+      <li>
+        <a href="">facebook</a>
+      </li>
+      <li>
+        <a href="">twitter</a>
+      </li>
+      <li>
+        <a href="">instagram</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!--slider o pasafotos autoamtizado-->
+  <div class="wrap">
+    <input id="slide-1-trigger" type="radio" name="slides" checked />
+    <section class="slide slide-one">
+      <div class="tobootm">
+        <h1>BRUNCH</h1>
+        <h3>Desayunar está de moda</h3>
+      </div>
+    </section>
+    <input id="slide-2-trigger" type="radio" name="slides" />
+    <section class="slide slide-two">
+      <div class="tobootm">
+        <h1>Productos no procesados</h1>
+        <h3>Tostas, tortitas o bowls de yogur o açaí </h3>
+      </div>
+    </section>
+    <input id="slide-3-trigger" type="radio" name="slides" />
+    <section class="slide slide-three">
+      <div class="tobootm">
+        <h1>Variedad</h1>
+        <h3>Prueba nuestros productos más originales</h3>
+      </div>
+    </section>
+    <input id="slide-4-trigger" type="radio" name="slides" />
+    <section class="slide slide-four">
+      <div class="tobootm">
+        <h1>Sin lactosa o sin azúcar</h1>
+        <h3>Postres para todos</h3>
+      </div>
+
+    </section>
+
+    <footer>
+      <label for="slide-1-trigger" class="dot"></label>
+      <label for="slide-2-trigger" class="dot"></label>
+      <label for="slide-3-trigger" class="dot"></label>
+      <label for="slide-4-trigger" class="dot"></label>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
